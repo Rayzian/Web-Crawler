@@ -1,4 +1,60 @@
-http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247241%2F&t=20170710230419&Ajax_CallBackArgument0=247241
+2017-07-10 23:58:49
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F243160%2F&t=20170710235849&Ajax_CallBackArgument0=243160
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 29, u'MovieId': 243160, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': -1, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 29}, u'movieTitle': u'\u548c\u7530\u7389\u4f20\u5947', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:00:06
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247241%2F&t=20170711000005&Ajax_CallBackArgument0=247241
 'NoneType' object has no attribute 'get'
 {u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 49, u'MovieId': 247241, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': -1, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 60}, u'movieTitle': u'\u8840\u6218\u6e58\u6c5f', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:00:33
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F210850%2F&t=20170711000032&Ajax_CallBackArgument0=210850
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 0, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 4, u'MovieId': 210850, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': 0, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 0}, u'movieTitle': u'\u4f0a\u7281\u6cb3\u8c37', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:00:37
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247328%2F&t=20170711000037&Ajax_CallBackArgument0=247328
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 11, u'MovieId': 247328, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': -1, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 1}, u'movieTitle': u'\u5317\u7eac30\u5ea6\u4e4b\u7231', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:00:44
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247543%2F&t=20170711000043&Ajax_CallBackArgument0=247543
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 6, u'MovieId': 247543, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': 0, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 0}, u'movieTitle': u'\u8fbe\u82ac\u5947\uff1a\u7c73\u5170\u7684\u5929\u624d', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:00:57
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F10910%2F&t=20170711000056&Ajax_CallBackArgument0=10910
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 3, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 7.7, u'AttitudeCount': 560, u'MovieId': 10910, u'TitleCn': u'', u'RShowFinal': 7.5, u'RDirectorFinal': 7.6, u'EnterTime': 0, u'RTotalFinal': 7.5, u'UserId': 0, u'ROtherFinal': 8.8, u'JustTotal': 0, u'Year': u'', u'RatingFinal': 7.6, u'RatingCount': 0, u'RStoryFinal': 7.4, u'IP': 0, u'Usercount': 674}, u'movieTitle': u'\u706b\u7684\u6218\u8f66', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:01:10
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247544%2F&t=20170711000110&Ajax_CallBackArgument0=247544
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 7, u'MovieId': 247544, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': -1, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 4}, u'movieTitle': u'\u7c73\u5170\u65af\u5361\u62c9\u6b4c\u5267\u9662\uff1a\u5947\u8ff9\u4e4b\u6bbf', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:01:12
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247545%2F&t=20170711000112&Ajax_CallBackArgument0=247545
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 13, u'MovieId': 247545, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': -1, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 6}, u'movieTitle': u'\u4f5b\u7f57\u4f26\u8428\u4e0e\u4e4c\u83f2\u5179\u7f8e\u672f\u9986', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:01:14
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247546%2F&t=20170711000114&Ajax_CallBackArgument0=247546
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 3, u'MovieId': 247546, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': 0, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 0}, u'movieTitle': u'\u7f57\u9a6c\u56db\u5927\u5723\u6bbf', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:01:18
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247542%2F&t=20170711000118&Ajax_CallBackArgument0=247542
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 7, u'MovieId': 247542, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': -1, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 7}, u'movieTitle': u'\u68b5\u8482\u5188\u535a\u7269\u9986', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:01:21
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247097%2F&t=20170711000120&Ajax_CallBackArgument0=247097
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 22, u'MovieId': 247097, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': -1, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 23}, u'movieTitle': u'\u649e\u90aa31\u53f7', u'userLastCommentUrl': u''}, u'error': None}
+
+2017-07-11 00:01:53
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F243160%2F&t=20170711000153&Ajax_CallBackArgument0=243160
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 29, u'MovieId': 243160, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': -1, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 29}, u'movieTitle': u'\u548c\u7530\u7389\u4f20\u5947', u'userLastCommentUrl': u''}, u'error': None}
 

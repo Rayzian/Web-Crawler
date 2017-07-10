@@ -2,6 +2,7 @@
 
 import re
 import json
+import time
 import os
 from MyHTMLDownloader import myHTMLDownLoader
 
@@ -69,13 +70,10 @@ class myHTMLParser(object):
         except Exception, e:
             print root_url, value
             print e
-            cwd = os.getcwd()
-            file_name = r"CrawlFailedUrl.txt"
-            file_path = os.path.join(cwd, file_name)
-            if os.path.exists(file_path) and os.path.isfile(file_path):
-                os.remove(file_path)
-            with open(file_path, mode="w+") as f:
+            with open("CrawlFailedUrl.txt", mode="a+") as f:
                 error = unicode(root_url) + "\n" + unicode(e) + "\n" + unicode(value) + "\n"
+                f.write(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+                f.write("\n")
                 f.write(error)
                 f.write("\n")
             return None
