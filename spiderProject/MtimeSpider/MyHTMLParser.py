@@ -2,6 +2,7 @@
 
 import re
 import json
+import os
 from MyHTMLDownloader import myHTMLDownLoader
 
 class myHTMLParser(object):
@@ -11,10 +12,10 @@ class myHTMLParser(object):
 
     def parse_urls(self, web_data):
         pattern = re.compile(r'http://movie.mtime.com/(\d+)/', re.IGNORECASE)
-        urls = pattern.findall(web_data)
-        if not urls:
+        movieId_list = pattern.findall(web_data)
+        if not movieId_list:
             return None
-        return list(set(urls))
+        return list(set(movieId_list))
 
     def parse_json(self, web_data, root_url):
         pattern = re.compile(r'=(.*?);')
@@ -40,7 +41,7 @@ class myHTMLParser(object):
         try:
             self.datas["is_release"] = 1
             self.datas["movie_rating"] = value.get("value").get("movieRating")
-            self.datas["box_office"] = value.get("value").get("boxOffice ")
+            self.datas["box_office"] = value.get("value").get("boxOffice")
             self.datas["movie_title"] = value.get("value").get("movieTitle")
 
             self.datas["rpicture_final"] = self.datas["movie_rating"].get("RPictureFinal")
@@ -68,6 +69,15 @@ class myHTMLParser(object):
         except Exception, e:
             print root_url, value
             print e
+            cwd = os.getcwd()
+            file_name = r"CrawlFailedUrl.txt"
+            file_path = os.path.join(cwd, file_name)
+            if os.path.exists(file_path) and os.path.isfile(file_path):
+                os.remove(file_path)
+            with open(file_path, mode="w+") as f:
+                error = unicode(root_url) + "\n" + unicode(e) + "\n" + unicode(value) + "\n"
+                f.write(error)
+                f.write("\n")
             return None
 
 
@@ -96,3 +106,12 @@ class myHTMLParser(object):
         except Exception, e:
             print root_url, value
             return None
+
+
+# if __name__ == '__main__':
+#     downloader = myHTMLDownLoader()
+#     parser = myHTMLParser()
+#     url = r"http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247241%2F&t=20170710230419&Ajax_CallBackArgument0=247241"
+#     response = downloader.downloader(url=url)
+#     data = parser.parse_json(web_data=response, root_url=url)
+#     print data

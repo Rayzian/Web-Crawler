@@ -1,0 +1,4 @@
+http://service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F247241%2F&t=20170710230419&Ajax_CallBackArgument0=247241
+'NoneType' object has no attribute 'get'
+{u'value': {u'userLastComment': u'', u'releaseType': 1, u'isRelease': True, u'tweetId': 0, u'movieRating': {u'TitleEn': u'', u'RPictureFinal': 0, u'AttitudeCount': 49, u'MovieId': 247241, u'TitleCn': u'', u'RShowFinal': 0, u'RDirectorFinal': 0, u'EnterTime': 0, u'RTotalFinal': 0, u'UserId': 0, u'ROtherFinal': 0, u'JustTotal': 0, u'Year': u'', u'RatingFinal': -1, u'RatingCount': 0, u'RStoryFinal': 0, u'IP': 0, u'Usercount': 60}, u'movieTitle': u'\u8840\u6218\u6e58\u6c5f', u'userLastCommentUrl': u''}, u'error': None}
+

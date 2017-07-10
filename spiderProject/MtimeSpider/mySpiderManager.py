@@ -15,19 +15,20 @@ class spiderMan(object):
 
     def crawl(self, root_url):
         response = self.downloader.downloader(url=root_url)
-        urls = self.parser.parse_urls(web_data=response)
+        movieId_list = self.parser.parse_urls(web_data=response)
 
-        for url in urls:
-            print "Crawling --> ", url
+        for id in movieId_list:
+            print "Crawling --> ", id
             try:
-                local_time = time.strftime("%Y%m%d%H%M%S4838", time.localtime())
+                local_time = time.strftime("%Y%m%d%H%M%S", time.localtime())
                 detail_url = "http://service.library.mtime.com/Movie.api" \
                              "?Ajax_CallBack=true" \
                              "&Ajax_CallBackType=Mtime.Library.Services" \
                              "&Ajax_CallBackMethod=GetMovieOverviewRating" \
                              "&Ajax_CrossDomain=1" \
-                             "&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F{}%2F&t={}" \
-                             "&Ajax_CallBackArgument0={}".format(url, local_time, url)
+                             "&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F{}%2F" \
+                             "&t={}" \
+                             "&Ajax_CallBackArgument0={}".format(id, local_time, id)
 
                 detail_response = self.downloader.downloader(url=detail_url)
                 datas = self.parser.parse_json(root_url=detail_url, web_data=detail_response)
@@ -45,9 +46,9 @@ class spiderMan(object):
                                 "RatingFinal": datas["rating_final"],
                                 "UserCount": datas["user_count"],
                                 "AttitudeCount": datas["attitude_count"],
-                                "TotleBoxOffice": str(datas["total_box_office"]) + str(datas["total_box_office_unit"]),
+                                "TotleBoxOffice": datas["total_box_office"] + datas["total_box_office_unit"],
                                 "BoxOffice": datas["box_office"],
-                                "TodayBoxOffice": str(datas["today_box_office"]) + str(datas["today_box_office_unit"]),
+                                "TodayBoxOffice": datas["today_box_office"] + datas["today_box_office_unit"],
                                 "ShowDays": datas["show_days"],
                                 "Rank": datas["rank"]
                             }
@@ -68,11 +69,10 @@ class spiderMan(object):
                     self.movie.insert_one(data)
             except Exception, e:
                 print e
-                print "Crawl failed --> ", url
+                print "Crawl failed --> ", id
                 time.sleep(2)
                 continue
-            print "Crawl finished --> ", url
-            self.movie.drop_indexes()
+            print "Crawl finished --> ", id
             time.sleep(2)
 
 
