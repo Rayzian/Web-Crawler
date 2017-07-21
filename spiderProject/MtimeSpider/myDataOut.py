@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 
 import pymongo
-
 class DataOutPut(object):
     def __init__(self):
         self.data = {}
