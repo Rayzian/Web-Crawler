@@ -1,0 +1,12 @@
+1500912116908	geckodriver	INFO	geckodriver 0.18.0
+1500912116916	geckodriver	INFO	Listening on 127.0.0.1:65329
+1500912118968	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1500912123023	Marionette	INFO	Listening on port 65335
+1500912123458	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://hotel.qunar.com/city/chengdu/#fromDate=2017-07-25&cityurl=chengdu&from=qunarHotel&toDate=2017-07-26&QHFP=ZSI0A8CEE112, line 67: String.trim is deprecated; use String.prototype.trim instead
+JavaScript warning: http://te.hotel.qunar.com/render/te, line 1: unreachable code after return statement
+JavaScript warning: http://te.hotel.qunar.com/render/te line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: http://static.mediav.com/mv.js, line 1: unreachable code after return statement
+ening
+pt warning: http://static.mediav.com/mv.js, line 1: unreachable code after return statement
