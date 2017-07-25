@@ -72,8 +72,8 @@ class QunaSpider(object):
          driver = webdriver.Firefox(executable_path=r'D:\fireFoxDrive\geckodriver.exe')
          driver.set_page_load_timeout(50)
          driver.get(root_url)
-         # driver.maximize_window() # 将浏览器最大化显示
-         driver.implicitly_wait(10) # 控制间隔时间，等待浏览器反映
+         # driver.maximize_window()
+         driver.implicitly_wait(10)
          self.get_hotel(driver, to_city, today, tomorrow)
 
 
